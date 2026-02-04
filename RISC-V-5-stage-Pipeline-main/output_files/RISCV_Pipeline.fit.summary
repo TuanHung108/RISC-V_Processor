@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Sep  4 13:38:28 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : RISCV_Pipeline
+Top-level Entity Name : top
+Family : Cyclone IV E
+Device : EP4CE15F23C6
+Timing Models : Final
+Total logic elements : 2,113 / 15,408 ( 14 % )
+    Total combinational functions : 2,005 / 15,408 ( 13 % )
+    Dedicated logic registers : 1,349 / 15,408 ( 9 % )
+Total registers : 1349
+Total pins : 163 / 344 ( 47 % )
+Total virtual pins : 0
+Total memory bits : 90 / 516,096 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

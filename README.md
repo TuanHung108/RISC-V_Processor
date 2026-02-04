@@ -1,25 +1,25 @@
-# 🎓 RISC-V Processor Projects
+# 🎓 RISC-V Processor Projects - Final Term Digital Design Course
 
-Dự án này là một **bộ sưu tập các bộ xử lý RISC-V** được viết bằng **Verilog HDL** (ngôn ngữ mô tả phần cứng). Nó bao gồm **2 kiến trúc khác nhau** để minh họa các cách thiết kế bộ xử lý.
+Dự án này tập trung vào việc thiết kế **bộ xử lý RISC-V** bằng **Verilog HDL**.
 
 ---
 
 ## 📖 Giới Thiệu
 
-### Dự án là gì?
-Dự án này cung cấp 2 triển khai khác nhau của bộ xử lý RISC-V (Reduced Instruction Set Computer - Vietnam):
+### Tổng Quan
+Dự án này gồm 2 cách triển khai khác nhau của bộ xử lý RISC-V:
 - **RISC-V 5-stage Pipeline**: Kiến trúc hiệu suất cao với pipeline 5 giai đoạn
 - **Single-Cycle RISC-V**: Kiến trúc đơn giản với 1 chu kỳ/lệnh
 
-### Dùng để làm gì?
-- 📚 **Mục đích giáo dục**: Học thiết kế CPU từ cấp độ phần cứng
+### Mục đích
+- 📚 **Học tập**: Học thiết kế CPU từ cấp độ phần cứng
 - ⚖️ **So sánh hiệu suất**: Giữa kiến trúc pipeline (hiệu suất cao) vs single-cycle (đơn giản)
-- 🧪 **Mô phỏng thực tế**: Sử dụng Quartus (công cụ thiết kế FPGA) và ModelSim
-- 🔧 **Học RISC-V ISA**: Tập hợp lệnh open-source
+- 🧪 **Phân tích kiến trúc**: Sử dụng Quartus (công cụ thiết kế FPGA) và QuestaSim
+- 🔧 **Hiểu thêm về RISC-V ISA**: Tập hợp lệnh open-source
 
 ---
 
-## 📁 Cấu Trúc Tổng Quan
+## 📁 Cấu Trúc Tổng Quan Dự Án
 
 ```
 RISC-V_Processor/
@@ -236,18 +236,12 @@ RISC-V_Processor/
 
 ---
 
-## 🔧 Công Cụ & Công Nghệ
+## 🔧 Ngôn Ngữ & Công Cụ
 
 - **Verilog HDL**: Ngôn ngữ mô tả phần cứng
 - **Quartus Prime**: IDE thiết kế FPGA của Intel/Altera
-- **ModelSim**: Công cụ mô phỏng Verilog
+- **QuestaSim**: Công cụ mô phỏng Verilog
 - **RISC-V ISA**: Tập hợp lệnh (Open-source ISA)
-
-### File Cấu Hình
-- **RISCV_Pipeline.qsf/.qpf**: Cấu hình Quartus (đối với pipeline)
-- **RISCV_5stage_pipeline.mpf**: Cấu hình ModelSim
-- **db/**: Cơ sở dữ liệu biên dịch Quartus
-- **vsim.wlf**: Tệp sóng (waveform) từ mô phỏng
 
 ---
 
@@ -260,57 +254,23 @@ RISC-V_Processor/
 - **Branch**: BEQ, BNE, BLT, BGE
 - **Jump**: JAL, JALR
 
-### Ví Dụ Lệnh
-```
-ADD x1, x2, x3      # x1 = x2 + x3
-ADDI x1, x1, 100    # x1 = x1 + 100
-LW x1, 0(x2)        # x1 = memory[x2 + 0]
-SW x1, 0(x2)        # memory[x2] = x1
-BEQ x1, x2, label   # if (x1 == x2) jump
-JAL x1, func        # x1 = PC+4; jump to func
-```
+### Lưu ý: Hiện tại dự án chưa hỗ trợ đầy đủ RISC-V ISA, mới chỉ hỗ trợ các lệnh cơ bản của tập lệnh RV32I
 
 ---
 
 ## 🚀 Cách Sử Dụng
 
-### Chạy Mô Phỏng với ModelSim
-
-#### Pipeline Version
-```bash
-cd RISC-V-5-stage-Pipeline-main
-# Mở ModelSim
-vsim -do "do simulate.do"
-# Hoặc tạo file do và run
-```
-
-#### Single-Cycle Version
-```bash
-cd Single-Cycle-RISC-V-Processor-main
-# Chạy testbench
-vsim tb_riscv
-```
-
-### Biên Dịch với Quartus
-```bash
-quartus_sh -t RISCV_Pipeline.qsf
-```
+### Chạy Mô Phỏng với QuestaSim
+Thực hiện chạy mô phỏng các testbench trên QuestaSim đối với cả Pipeline và Single Cycle để quan sát waveform và debug.
 
 ---
 
-## 📖 Hành Trình Học Tập
-
-1. **Bắt đầu**: Nghiên cứu Single-Cycle version để hiểu cơ bản
-2. **Tiến bộ**: Tìm hiểu từng module: control unit, datapath, register file
-3. **Nâng cao**: Chuyển sang Pipeline version
-4. **Chuyên sâu**: Hiểu hazard detection, forwarding, stalling
-5. **Thực hành**: Chạy testbench, quan sát waveform trong ModelSim
 
 ---
 
-## 🎯 Mục Tiêu Học Tập
+## 🎯 Mục tiêu sau dự án
 
-- ✅ Hiểu cách bộ xử lý lấy, giải mã, thực hiện lệnh
+- ✅ Hiểu cách bộ xử lý lấy, giải mã, thực hiện một lệnh trong một hoặc nhiều chu kỳ
 - ✅ Hiểu sự khác biệt giữa kiến trúc đơn chu kỳ vs pipeline
 - ✅ Học cách xử lý data hazards
 - ✅ Hiểu forwarding, stalling, flushing
@@ -321,17 +281,9 @@ quartus_sh -t RISCV_Pipeline.qsf
 
 ## 📝 Ghi Chú
 
-- Cả hai dự án đều có thể chạy mô phỏng trên ModelSim
-- Dự án Pipeline có thể được lập trình lên FPGA thông qua Quartus
-- Các testbench cung cấp các ví dụ tốt để bắt đầu
-- Khuyến nghị: bắt đầu từ Single-Cycle rồi chuyển sang Pipeline
+- Cả hai dự án đều chỉ mới chạy mô phỏng trên QuestaSim, chưa triển khai trên FPGA
+- Các testbench cung cấp các testcase cơ bản để kiểm tra hoạt động chức năng
+- Chưa có sự so sánh hiệu suất giữa 2 kiến trúc RISC-V
 
 ---
-
-## 📧 Liên Hệ & Hỗ Trợ
-
-Để hiểu rõ hơn từng module, tham khảo các tệp Verilog trực tiếp hoặc chạy mô phỏng và quan sát waveform.
-
----
-
-**Chúc bạn học tập vui vẻ với RISC-V! 🚀**
+-

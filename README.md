@@ -185,21 +185,21 @@ RISC-V_Processor/
 ---
 
 ## 📊 Bảng So Sánh
+Đây chỉ là bảng so sánh cơ bản sự khác nhau giữa 2 kiến trúc.
 
 | Tiêu Chí | Pipeline (5-stage) | Single-Cycle |
 |----------|-------------------|--------------|
 | **Thông lượng** | 3-5 lệnh/chu kỳ | 1 lệnh/chu kỳ |
 | **Độ phức tạp** | Cao (hazard unit) | Thấp |
-| **Độ trễ/lệnh** | ~5 chu kỳ | ~1 chu kỳ |
+| **Chu kỳ thực hiện 1 lệnh** | ~5 chu kỳ | ~1 chu kỳ |
 | **Xung đột dữ liệu** | Có (cần xử lý) | Không |
-| **Khó độ học tập** | Khó | Dễ |
-| **Sát với CPU thực** | Rất sát | Không sát |
-| **Giai đoạn riêng** | Có | Không |
-| **Forwarding logic** | Cần thiết | Không cần |
+| **Tính ứng dụng** | Cao | Thấp |
+
+Về cơ bản, RISC-V 5-stage Pipeline được xây dựng và phát triển dựa trên Single Cycle RISC-V.
 
 ---
 
-## 🧪 Testbench (Bộ Kiểm Tra)
+## 🧪 Testbench
 
 ### Pipeline Version
 

@@ -1,0 +1,78 @@
+C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_pipeline_automated.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_pipeline_automated.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_pipeline_automated
+
+Top level modules:
+	tb_pipeline_automated
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/imem.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/imem.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module imem
+
+Top level modules:
+	imem
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/hazard_unit.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/hazard_unit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module hazard_unit
+
+Top level modules:
+	hazard_unit
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/memory.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/memory.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module memory
+
+Top level modules:
+	memory
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/fetch.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/fetch.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/execute.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/execute.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/decode.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/decode.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module decode
+
+Top level modules:
+	decode
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/core.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/core.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module core
+
+Top level modules:
+	core
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/data_memory.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/data_memory.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/RISCV_Pipeline.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/RISCV_Pipeline.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module riscv
+
+Top level modules:
+	riscv
+
+} {} {}} C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_riscv.v {1 {vlog -work work -vopt -stats=none C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_riscv.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_riscv
+
+Top level modules:
+	tb_riscv
+
+} {} {}}

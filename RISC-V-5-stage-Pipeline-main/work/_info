@@ -1,0 +1,469 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/QuestaSim_Project/Digital_Design/Test
+T_opt
+!s110 1756888547
+V5OhF]l2J<hfcZG]odN[3`3
+04 10 4 work tb_execute fast 0
+=1-581122e5bb87-68b7fde3-257-5bec
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756903030
+VIm5?kd]_8_j=RR:oX;6:]2
+04 9 4 work tb_decode fast 0
+=1-581122e5bb87-68b83676-8f-39c8
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1757050666
+V`85:T3_7oc;4[EJ[42AiY3
+04 8 4 work riscv_tb fast 0
+=1-581122e5bb87-68ba772a-aa-52ec
+R1
+R2
+n@_opt2
+R3
+R0
+T_opt3
+!s110 1757136190
+V9Ib<h]8Ze1]NUOiH=2z7h3
+04 14 4 work tb_bubble_sort fast 0
+=1-581122e5bb87-68bbc53e-31a-2758
+R1
+R2
+n@_opt3
+R3
+vcore
+Z4 !s110 1757136184
+!i10b 1
+!s100 nKPgX56:^FK`B2@P;^cXF0
+IeVl:H;bBBBKPPhmQBZUN`3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dC:/QuestaSim_Project/RISC-V-5-stage-Pipeline
+w1757125157
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/core.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/core.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757136184.000000
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/core.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/core.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdata_memory
+Z10 !s110 1757136183
+!i10b 1
+!s100 01l?lLXOA?@NO4CmIj4gK1
+IY?AO9eM;o]oU21ozX@99F1
+R5
+R6
+w1757128365
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/data_memory.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/data_memory.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z11 !s108 1757136183.000000
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/data_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/data_memory.v|
+!i113 0
+R9
+R2
+vdecode
+R10
+!i10b 1
+!s100 WBhiPLPka@U^;h6hB45nV2
+IcCW>hfUM55HUEYj`MChHK3
+R5
+R6
+w1757135957
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/decode.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/decode.v
+L0 2
+R7
+r1
+!s85 0
+31
+R11
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/decode.v|
+!i113 0
+R9
+R2
+vexecute
+R10
+!i10b 1
+!s100 I[29kGmkCG0ldo3?jCKV`3
+I1TQeeLAlf3XA[eAgmHWWl2
+R5
+R6
+w1757125423
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/execute.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/execute.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/execute.v|
+!i113 0
+R9
+R2
+vfetch
+R10
+!i10b 1
+!s100 kagnG6cW?`BKg<cQo?kVl3
+I4^oda9>PXhU`UP8I<CSGC0
+R5
+R6
+Z12 w1757001982
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/fetch.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/fetch.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/fetch.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/fetch.v|
+!i113 0
+R9
+R2
+vhazard_unit
+R10
+!i10b 1
+!s100 2VengbXPD4hH065b1l7=N2
+IF83dSBREfHTG77E4nPTQQ2
+R5
+R6
+w1756968339
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/hazard_unit.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/hazard_unit.v
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/hazard_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/hazard_unit.v|
+!i113 0
+R9
+R2
+vimem
+R4
+!i10b 1
+!s100 2Qdd8o>MgREKG_UV64@d=2
+IRj_jc41T<XYM9=NdDLSK?0
+R5
+R6
+w1757059313
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/imem.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/imem.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/imem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/imem.v|
+!i113 0
+R9
+R2
+vmemory
+R10
+!i10b 1
+!s100 X5M;XH0^5fHUOE2eoXLDZ3
+IHm3UzQAn<J<2>g:EMN9aa0
+R5
+R6
+R12
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/memory.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/memory.v
+L0 2
+R7
+r1
+!s85 0
+31
+R11
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/memory.v|
+!i113 0
+R9
+R2
+vriscv
+R4
+!i10b 1
+!s100 ?zOgBWgVOS>Hh>YnjfE7J0
+Ik4NGE79ET[BZ?]?6@=U;<2
+R5
+R6
+w1757059284
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/RISCV_Pipeline.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/RISCV_Pipeline.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/RISCV_Pipeline.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/RISCV_Pipeline.v|
+!i113 0
+R9
+R2
+vriscv_tb
+!s110 1757130185
+!i10b 1
+!s100 ]DdPoQ8C9LA4cE6DB91UH1
+IEd?Fdmh0`nmMzTYGWH3ne0
+R5
+R6
+w1757059140
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb.v
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1757130184.000000
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb.v|
+!i113 0
+R9
+R2
+vtb_bubble_sort
+R4
+!i10b 1
+!s100 ckZ:`6ggoY^ZTc`M@15k=2
+IMfXCCQP2Mm0lK6M6f9`bZ2
+R5
+R6
+w1757136177
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_bubble_sort.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_bubble_sort.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_bubble_sort.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_bubble_sort.v|
+!i113 0
+R9
+R2
+vtb_decode
+Z13 !s110 1756903022
+!i10b 1
+!s100 C@<ob7QNz:RlaKQ[TH>`I1
+I3RI7U_mK3GLOYkYO[b??V0
+R5
+Z14 dC:/QuestaSim_Project/RISC-V-5-stage-pipeline
+w1756902996
+8C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_decode.v
+FC:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_decode.v
+L0 3
+R7
+r1
+!s85 0
+31
+Z15 !s108 1756903022.000000
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_decode.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_decode.v|
+!i113 0
+R9
+R2
+vtb_execute
+R13
+!i10b 1
+!s100 ^Kg[iURToGkaU4BVf9eno2
+INZ3lii2?cXNRICC[U245D2
+R5
+R14
+w1756888539
+8C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_execute.v
+FC:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_execute.v
+L0 3
+R7
+r1
+!s85 0
+31
+R15
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_execute.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_execute.v|
+!i113 0
+R9
+R2
+vtb_memory
+R13
+!i10b 1
+!s100 b?IbNi;D59cT4;=<]:fl;1
+I>nePXL:zNN;AZ=VEG_JfG0
+R5
+R14
+w1756880723
+8C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_memory.v
+FC:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_memory.v
+L0 3
+R7
+r1
+!s85 0
+31
+R15
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_memory.v|
+!i113 0
+R9
+R2
+vtb_pipeline_automated
+R4
+!i10b 1
+!s100 b1[j132IHSI`XF8`75l[?0
+IdQ7H8Me9PCZKZ3>K[eaJ32
+R5
+R6
+w1757133820
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_pipeline_automated.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_pipeline_automated.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_pipeline_automated.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_pipeline_automated.v|
+!i113 0
+R9
+R2
+vtb_riscv
+R4
+!i10b 1
+!s100 X7DeZZ[O5Xn?=SfPGT=X`2
+I=mQk:n;:KXPg^<jk<onJ20
+R5
+R6
+w1757131553
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_riscv.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_riscv.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_riscv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_riscv.v|
+!i113 0
+R9
+R2
+vtb_top
+Z16 !s110 1757050660
+!i10b 1
+!s100 c]85cAERH4B^Hogd7e4V73
+IRgLPS5oGY2TEnP=[<VFmO1
+R5
+R6
+w1756978147
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_top.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_top.v
+L0 3
+R7
+r1
+!s85 0
+31
+Z17 !s108 1757050660.000000
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/tb_top.v|
+!i113 0
+R9
+R2
+vtb_writeback
+R13
+!i10b 1
+!s100 nUJLmFJMGY4`H1Z[oUFD^1
+I=4G[OP@Xf_=SNV?:CZ8XJ1
+R5
+R14
+w1756880845
+8C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_writeback..v
+FC:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_writeback..v
+L0 3
+R7
+r1
+!s85 0
+31
+R15
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_writeback..v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-pipeline/tb_writeback..v|
+!i113 0
+R9
+R2
+vtop
+!s110 1757040362
+!i10b 1
+!s100 UaYML<Fn0zD?S3GIRjQaB3
+I96EX>GJ_;EViaeLhcY8771
+R5
+R6
+w1757040233
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/top.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/top.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1757040362.000000
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/top.v|
+!i113 0
+R9
+R2
+vwriteback
+R16
+!i10b 1
+!s100 H661jEN`QJdUc>4PJoN`:2
+I8=b6NAd<a0Gjm^SbA`HES0
+R5
+R6
+w1756910502
+8C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/writeback.v
+FC:/QuestaSim_Project/RISC-V-5-stage-Pipeline/writeback.v
+L0 1
+R7
+r1
+!s85 0
+31
+R17
+!s107 C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/writeback.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/QuestaSim_Project/RISC-V-5-stage-Pipeline/writeback.v|
+!i113 0
+R9
+R2
